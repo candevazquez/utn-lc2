@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>FORMULARIO</h1>
+   <form >
+    <fieldset>
+        <legend>Datos personales</legend>
+        <input type=" text" value="ESTUDIANTE" disabled>
+
+        <label for="nomape"> Nombre completo:</label>
+        <input type="text" id="nomape" name="nomape" placeholder="ingrese nombre completo" >
+
+        <label for="mail"> Direccion de email:</label>
+        <input type="text" id="mail" name="mail" placeholder="ingrese email" >
+
+        
+   <hr>
+
+        <label for="edad"> Edad:</label>
+        <input type="number" id="edad" name="edad" >
+        
+
+        <label for="seleccionable">nacionalidad</label>
+      
+        <select name="seleccionable" id="seleccionable">     
+            <option value="ARGENTINA" selected >ARGENTINA</option>
+            <option value="BRASIL">BRASIL</option>
+            <option value="URUGUAY">URUGUAY</option>
+            <option value="PARAGUAY">PARAGUAY</option>
+            <option value="CHILE" >CHILE</option>
+        </select>
+
+
+        <label for="seleccionable2">Condicion laboral</label>
+      
+        <select name="seleccionable2" id="seleccionable2">     
+            <option value="DESEMPLEADO" selected >DESEMPLEADO</option>
+            <option value="EN BUSQUEDA LABORAL">EN BUSQUEDA LABORAL</option>
+            <option value="TRABAJO PART TIME">TRABAJO PART TIME</option>
+            <option value="TABAJO FULL TIME">TRABAJO FULL TIME</option>
+        
+        </select>
+
+    </fieldset>
+    <hr>
+    <hr>
+
+
+    <fieldset>
+        <legend>Gustos personales</legend>
+
+        <label for="musical"> Banda o artista preferido</label>
+        <input type="text" id="musical" name="musical" placeholder="ingrese artista">
+
+
+        <label for="seleccionable3">Comida favorita</label>
+        <select name="seleccionable3" id="seleccionable3">     
+            <option value="milanesas" >milanesas</option>
+            <option value="pastas">pastas</option>
+            <option value="asado">asado</option>
+            <option value="ensaladas">ensaladas</option>
+        </select>
+        <label for="checkbox">guardar datos</label>
+        <input type="checkbox" name="checkbox" id="checkbox">
+        <input type="submit" value="enviar">
+    </fieldset>
+
+
+
+   </form>
+    
+</body>
+</html>

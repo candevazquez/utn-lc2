@@ -1,0 +1,40 @@
+
+h1 { 
+    
+    font-size: 24px;
+    color:#242424;
+    font-weight: 900;
+    
+}
+h2 {
+    font-size: 20px;
+    color: #606060;
+    font-weight: 800px;
+
+}
+p {
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+a {
+font-weight: bold;
+}
+ul li a {
+    color: darkorange;
+}
+ul {
+    margin-left: 100px;
+    padding: 20px;
+    border-style: solid;
+    border-color: blue;
+    border-width: 2px;
+    max-width: 40%;
+}
+
+#neuquen,#rioNegro, #linkneuquen, #linkrio {
+    color: rgb(73, 140, 5);
+}
+
+/*aplicar fondo a todo el doc html color rgb con valores 245 en todos
+
